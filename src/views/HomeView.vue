@@ -1,6 +1,6 @@
 <template>
   <div>
-    <body>
+    <body class="body">
       <header>
         <h2 class="header-title">
           <span class="header-title-icon1">

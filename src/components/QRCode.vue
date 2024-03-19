@@ -86,6 +86,7 @@
   .qr-code img {
     max-width: 100%;
     height: auto;
+    margin-left: 42%;
   }
   
   .download-button,
