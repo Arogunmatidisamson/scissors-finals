@@ -4,7 +4,7 @@
       <header>
         <h2 class="header-title">
           <span class="header-title-icon1">
-            <img src="../assets/vector/header_title1.svg" alt=""
+            <img src="../assets/vector/header.png" alt=""
           /></span>
           <span class="header-title-icon2">
             <img src="../assets/vector/header_title2.svg" alt=""
@@ -62,11 +62,11 @@
         <section class="part-two">
           <div class="box-below-signUp">
             <div class="links-container">
-              <img src="../assests/vector/link.svg" alt="A link symbol" />
-              <img src="../assests/vector/link.svg" alt="A link symbol" />
-              <img src="../assests/vector/link.svg" alt="A link symbol" />
-              <img src="../assests/vector/arrow.svg" alt="A link symbol" />
-              <img src="../assests/vector/link.svg" alt="A link symbol" />
+              <img src="../assets/vector/link.svg" alt="A link symbol" />
+              <img src="../assets/vector/link.svg" alt="A link symbol" />
+              <img src="../assets/vector/link.svg" alt="A link symbol" />
+              <img src="../assets/vector/arrow.svg" alt="A link symbol" />
+              <img src="../assets/vector/link.svg" alt="A link symbol" />
             </div>
             <p>
               Seamlessly transform your long URLs into concise <br />
@@ -74,18 +74,18 @@
             </p>
           </div>
           <div class="ash">
-            <img src="../assests/vector/ash.svg" alt="background image" />
+            <img src="../assets/vector/ash.svg" alt="background image" />
           </div>
 
           <div class="trapezium-container">
             <img
               class="trapezium"
-              src="../assests/vector/trapezium.svg"
+              src="../assets/vector/trapezium.svg"
               alt="rectanglar design"
             />
             <img
               class="ellipse"
-              src="../assests/vector/ellipse.svg"
+              src="../assets/vector/ellipse.svg"
               alt="reactanglar design"
             />
           </div>
@@ -125,7 +125,7 @@
             <div class="why-choose-container">
               <div style="display: flex; column-gap: 0.5rem">
                 <div class="line-70">
-                  <img src="../assests/vector/line70.svg" alt="" />
+                  <img src="../assets/vector/line70.svg" alt="" />
                 </div>
                 <div style="padding-top: 8px">
                   <h2>Why choose <span>Scissors</span></h2>
@@ -146,7 +146,7 @@
               <div class="icon-section-cover add-margin">
                 <div>
                   <div class="icon-cover">
-                    <img src="../assests/vector/link-2.svg" alt="" />
+                    <img src="../assets/vector/link-2.svg" alt="" />
                   </div>
                   <h3>URL Shortening</h3>
                   <p>
@@ -156,7 +156,7 @@
                 </div>
                 <div>
                   <div class="icon-cover">
-                    <img src="../assests/vector/edit.svg" alt="" />
+                    <img src="../assets/vector/edit.svg" alt="" />
                   </div>
                   <h3>Custom URLs</h3>
                   <p>
@@ -168,7 +168,7 @@
               <div class="icon-section-cover">
                 <div>
                   <div class="icon-cover">
-                    <img src="../assests/vector/grid.svg" alt="" />
+                    <img src="../assets/vector/grid.svg" alt="" />
                   </div>
                   <h3>QR Codes</h3>
                   <p>
@@ -179,7 +179,7 @@
                 </div>
                 <div>
                   <div class="icon-cover">
-                    <img src="../assests/vector/activity.svg" alt="" />
+                    <img src="../assets/vector/activity.svg" alt="" />
                   </div>
                   <h3>Data Analytics</h3>
                   <p>
@@ -197,7 +197,7 @@
           <div class="price-perfect-main-conatiner" id="pricing">
             <div class="line70-section">
               <div class="line-70">
-                <img src="../assests/vector/line70.svg" alt="" />
+                <img src="../assets/vector/line70.svg" alt="" />
               </div>
               <div style="padding-top: 5px">
                 <h2>Why choose <span>A price perfect</span> for your needs.</h2>
@@ -215,35 +215,35 @@
                 <div><p>Free plan for all users</p></div>
                 <div class="check-icon-container">
                   <img
-                    src="../assests/vector/check-circle.svg"
+                    src="../assets/vector/check-circle.svg"
                     alt="check image"
                   />
                   <p>Unlimited URL Shortening</p>
                 </div>
                 <div class="check-icon-container">
                   <img
-                    src="../assests/vector/check-circle.svg"
+                    src="../assets/vector/check-circle.svg"
                     alt="check image"
                   />
                   <p>Basic Link Analytics</p>
                 </div>
                 <div class="check-icon-container">
                   <img
-                    src="../assests/vector/check-circle.svg"
+                    src="../assets/vector/check-circle.svg"
                     alt="check image"
                   />
                   <p>Customizable Short Links</p>
                 </div>
                 <div class="check-icon-container">
                   <img
-                    src="../assests/vector/check-circle.svg"
+                    src="../assets/vector/check-circle.svg"
                     alt="check image"
                   />
                   <p>Standard Support</p>
                 </div>
                 <div class="check-icon-container">
                   <img
-                    src="../assests/vector/check-circle.svg"
+                    src="../assets/vector/check-circle.svg"
                     alt="check image"
                   />
                   <p>Ad-supported</p>
@@ -256,35 +256,35 @@
                 <div><p>Ideal for business creators</p></div>
                 <div class="check-icon-container">
                   <img
-                    src="../assests/vector/check-circle-white.svg"
+                    src="../assets/vector/check-circle-white.svg"
                     alt="check image"
                   />
                   <p>Enhanced Link Analytics</p>
                 </div>
                 <div class="check-icon-container">
                   <img
-                    src="../assests/vector/check-circle-white.svg"
+                    src="../assets/vector/check-circle-white.svg"
                     alt="check image"
                   />
                   <p>Custom Branded Domains</p>
                 </div>
                 <div class="check-icon-container">
                   <img
-                    src="../assests/vector/check-circle-white.svg"
+                    src="../assets/vector/check-circle-white.svg"
                     alt="check image"
                   />
                   <p>Advanced Link Customization</p>
                 </div>
                 <div class="check-icon-container">
                   <img
-                    src="../assests/vector/check-circle-white.svg"
+                    src="../assets/vector/check-circle-white.svg"
                     alt="check image"
                   />
                   <p>Priority Support</p>
                 </div>
                 <div class="check-icon-container">
                   <img
-                    src="../assests/vector/check-circle-white.svg"
+                    src="../assets/vector/check-circle-white.svg"
                     alt="check image"
                   />
                   <p>Ad-free Experience</p>
@@ -297,35 +297,35 @@
                 <div><p>Share with up to 10 users</p></div>
                 <div class="check-icon-container">
                   <img
-                    src="../assests/vector/check-circle.svg"
+                    src="../assets/vector/check-circle.svg"
                     alt="check image"
                   />
                   <p>Team Collaboration</p>
                 </div>
                 <div class="check-icon-container">
                   <img
-                    src="../assests/vector/check-circle.svg"
+                    src="../assets/vector/check-circle.svg"
                     alt="check image"
                   />
                   <p>User Roles and Permissions</p>
                 </div>
                 <div class="check-icon-container">
                   <img
-                    src="../assests/vector/check-circle.svg"
+                    src="../assets/vector/check-circle.svg"
                     alt="check image"
                   />
                   <p>Enhanced Security</p>
                 </div>
                 <div class="check-icon-container">
                   <img
-                    src="../assests/vector/check-circle.svg"
+                    src="../assets/vector/check-circle.svg"
                     alt="check image"
                   />
                   <p>API Access</p>
                 </div>
                 <div class="check-icon-container">
                   <img
-                    src="../assests/vector/check-circle.svg"
+                    src="../assets/vector/check-circle.svg"
                     alt="check image"
                   />
                   <p>Dedicated Account Manager</p>
@@ -339,7 +339,7 @@
           </div>
         </section>
 
-        <ShortenUrl id="myurls" />
+        <ShortenUrl id="myurls"  class="shortenUrl"/>
 
         <FAQ id="faq"></FAQ>
 
@@ -350,10 +350,10 @@
             </div>
             <div><button>Get Started</button></div>
             <div class="group5">
-              <img src="../assests/vector/group5.svg" alt="background image" />
+              <img src="../assets/vector/group5.svg" alt="background image" />
             </div>
             <div class="group6">
-              <img src="../assests/vector/group6.svg" alt="background image" />
+              <img src="../assets/vector/group6.svg" alt="background image" />
             </div>
           </div>
         </section>
@@ -365,32 +365,32 @@
               <div>
                 <h3 class="header-title footer-title">
                   <span class="header-title-icon1">
-                    <img src="../assests/vector/footer-link.svg" alt=""
+                    <img src="../assets/vector/footer-link.svg" alt=""
                   /></span>
                   <span class="header-title-icon2">
-                    <img src="../assests/vector/footer-line.svg" alt=""
+                    <img src="../assets/vector/footer-line.svg" alt=""
                   /></span>
                   <span class="scissor-footer"><a href="#"> scissor</a></span>
                 </h3>
                 <div class="social-icons">
                   <a href="https://twitter.com"
                     ><img
-                      src="../assests/vector/social-icon/twitter.svg"
+                      src="../assets/vector/social-icon/twitter.svg"
                       alt="twitter"
                   /></a>
                   <a href="https://instagram.com"
                     ><img
-                      src="../assests/vector/social-icon/instagram.svg"
+                      src="../assets/vector/social-icon/instagram.svg"
                       alt="instagram"
                   /></a>
                   <a href="https://linkedin.com"
                     ><img
-                      src="../assests/vector/social-icon/linkedin.svg"
+                      src="../assets/vector/social-icon/linkedin.svg"
                       alt="linkedin"
                   /></a>
                   <a href="https://facebook.com">
                     <img
-                      src="../assests/vector/social-icon/facebook.svg"
+                      src="../assets/vector/social-icon/facebook.svg"
                       alt="facebook"
                   /></a>
                 </div>
@@ -470,10 +470,10 @@
             </div>
 
             <div class="group7">
-              <img src="../assests/vector/group7.svg" alt="background image" />
+              <img src="../assets/vector/group7.svg" alt="background image" />
             </div>
             <div class="group8">
-              <img src="../assests/vector/group8.svg" alt="background image" />
+              <img src="../assets/vector/group8.svg" alt="background image" />
             </div>
           </div>
         </section>
@@ -482,9 +482,9 @@
   </div>
 </template>
 
-<script setup>
-import "@/styles/Home.css";
-import FAQ from "@/components/Faq.vue";
-import ShortenUrl from "@/components/ShortenUrl.vue";
-import router from "../router/index.ts";
+<script setup lang="ts">
+import "../styles/Home.css";
+import FAQ from "../components/Faq.vue";
+import ShortenUrl from "../components/ShortenUrl.vue";
+import router from "../router/index";
 </script>

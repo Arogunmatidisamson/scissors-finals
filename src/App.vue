@@ -1,13 +1,16 @@
 <template>
   <div>
-<RouterView></RouterView>
+    <RouterView></RouterView>
   </div>
 </template>
 
-<script>
-import {useRouter} from 'vue-router'
+<script lang="ts" setup>
+import { useRouter } from "vue-router";
+// export default {
+//   components: {
+//     App,
+//   },
+// };
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

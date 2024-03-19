@@ -11,7 +11,7 @@
     </div>
   </template>
   
-  <script setup>
+  <script lang="ts" setup>
   import { ref, onMounted, defineProps } from "vue";
   
   const qrCodeURL = ref("");

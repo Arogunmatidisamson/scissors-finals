@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div class="profile-container">
     <div class="profile-picture-container">
       <img :src="profileImageUrl" class="profile-picture" alt="Profile Picture">
@@ -13,7 +13,7 @@
 import { ref } from 'vue'
 import { auth} from '../firebase'
 import { storage, ref as storageRef } from '../firebase';
-// import { storageRef } from '../firebase';
+
 
 
 const currentUser = ref(auth.currentUser)
@@ -28,25 +28,6 @@ const logout = async () => {
   }
 }
 
-// const handleFileUpload = async (event: Event) => {
-//   const file = (event.target as HTMLInputElement).files?.[0]
-//   if (file) {
-//     try {
-//       const storageRef = storage.ref()
-//       // const fileRef = storageRef.child(`profile_pictures/${currentUser.value.uid}`)
-//       const fileRef = storageRef(storage, `profile_pictures/${currentUser.value.uid}`);
-
-//       await fileRef.put(file)
-//       console.log('Profile picture uploaded successfully!')
-//       // Get the download URL of the uploaded image
-//       profileImageUrl.value = await fileRef.getDownloadURL()
-//     } catch (error) {
-//       console.error('Error uploading profile picture:', error.message)
-//     }
-//   }
-// }
-
-// Inside handleFileUpload function
 const handleFileUpload = async (event: Event) => {
   const file = (event.target as HTMLInputElement).files?.[0]
   if (file) {
@@ -64,21 +45,14 @@ const handleFileUpload = async (event: Event) => {
 </script>
 
 <style scoped>
-/* Resetting default margin and padding for all elements */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body styles */
-/* body {
-  font-family: Arial, sans-serif;
-  background-color: #f8f9fa;
-  color: #333;
-} */
 
-/* Profile container styles */
 .profile-container {
   max-width: 400px;
   margin: 100px auto;
@@ -89,12 +63,12 @@ const handleFileUpload = async (event: Event) => {
   text-align: center;
 }
 
-/* Profile picture container styles */
+
 .profile-picture-container {
   margin-bottom: 20px;
 }
 
-/* Profile picture styles */
+
 .profile-picture {
   width: 150px;
   height: 150px;
@@ -103,13 +77,13 @@ const handleFileUpload = async (event: Event) => {
   object-position: center;
 }
 
-/* Heading styles */
+
 h2 {
   font-size: 24px;
   margin-bottom: 20px;
 }
 
-/* Button styles */
+
 button {
   padding: 10px 20px;
   background-color: #007bff;
@@ -122,4 +96,19 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+</style> -->
+<template>
+  <div>
+
+  </div>
+</template>
+
+<script lang="ts">
+  export default {
+    
+  }
+</script>
+
+<style scoped>
+
 </style>

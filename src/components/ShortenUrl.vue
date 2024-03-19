@@ -9,7 +9,7 @@
     <form @submit.prevent="shortenURL" class="form">
       <input type="text" v-model="originalURL" placeholder="Enter URL" class="url-input" />
       <button type="submit" class="shorten-button">Shorten</button>
-      <img src="../assests/vector/magic-wand.svg" alt="magic wand" />
+      <img src="../assets/vector/magic-wand.svg" alt="magic wand" />
     </form>
     <p v-if="shortenedURL">
       Shortened URL:
@@ -27,9 +27,10 @@
 
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import { ref } from "vue";
 import axios from "axios";
+import QRCode from "./QRCode.vue";
 
 const originalURL = ref("");
 const shortenedURL = ref("");
@@ -42,7 +43,8 @@ const shortenURL = async () => {
     shortenedURL.value = response.data;
     errorMessage.value = "";
 
-    const storedData = JSON.parse(localStorage.getItem("shortenedURLs")) || [];
+    const storedData = JSON.parse(localStorage.getItem("shortenedURLs") || "[]") as string[];
+
     storedData.push(shortenedURL.value);
     localStorage.setItem("shortenedURLs", JSON.stringify(storedData));
   } catch (error) {
@@ -68,7 +70,7 @@ const copyToClipboard = () => {
 };
 
 
-const downloadQRCode = (url) => {
+const downloadQRCode = (url:string) => {
   const link = document.createElement('a');
   link.href = url;
   link.download = 'qr_code.png';
@@ -91,7 +93,7 @@ max-width: 600px;
 align-items: center;
 justify-content: center;
 margin: 0% auto;
-margin-top: 15%;
+margin-top: 25%;
 padding: 20px;
 background-color: #fff;
 border-radius: 8px;

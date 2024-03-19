@@ -1,34 +1,42 @@
 <template>
-    <form @submit.prevent="login">
-      <input type="email" v-model="email" placeholder="Email" required />
-      <input type="password" v-model="password" placeholder="Password" required />
-      <button type="submit">Login</button>
-    </form>
-  </template>
-  
-  <script setup lang="ts">
-  import { ref } from 'vue'
-  import { auth } from '../firebase'
-  import {signInWithEmailAndPassword} from 'firebase/auth'
-  import router from '@/router/index'
+  <form @submit.prevent="login">
+    <input type="email" v-model="email" placeholder="Email" required />
+    <input type="password" v-model="password" placeholder="Password" required />
+    <button type="submit">Login</button>
+    <p v-if="errorMessage">{{ errorMessage }}</p>
+  </form>
+</template>
 
-  
-  const email = ref('')
-  const password = ref('')
-  
-  const login = async () => {
-    try {
-      const userCredential = await signInWithEmailAndPassword(auth,email.value, password.value)
-      console.log(userCredential.user)
-      router.push('/home')
+<script setup lang="ts">
+import { ref } from "vue";
+import { auth } from "../firebase";
+import { signInWithEmailAndPassword } from "firebase/auth";
+import router from "../router/index";
 
-    } catch (error) {
-      console.error(error.message)
-    }
+const email = ref("");
+const password = ref("");
+const errorMessage = ref("");
+
+const login = async () => {
+  errorMessage.value = "";
+
+  try {
+    const userCredential = await signInWithEmailAndPassword(
+      auth,
+      email.value,
+      password.value
+    );
+    console.log(userCredential.user);
+    router.push("/home");
+  } catch (error) {
+    console.error("error", (error as Error).message || error);
+
+    errorMessage.value = "invalid email or password";
   }
-  </script>
-  <style>
-  /* Resetting default margin and padding for all elements */
+};
+</script>
+<style>
+/* Resetting default margin and padding for all elements */
 * {
   margin: 0;
   padding: 0;
@@ -75,6 +83,4 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: #0056b3;
 }
-
 </style>
-  
